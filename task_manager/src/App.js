@@ -6,15 +6,15 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Login from "./static/js/login_form";
 import Register from "./static/js/register_form";
 import Logout from "./static/js/logout";
-import LoginNavBar from "./components/login_navbar/login_navbar";
+import NavBar from "./components/navbar/navbar";
 import Home from "./static/js/homePage";
 
 function App() {
   return (<Router>
     <div className="App">
-      
+
       <div>
-        <LoginNavBar />
+        <NavBar />
       </div>
 
       <div className="auth-wrapper">
@@ -32,7 +32,7 @@ function App() {
         </div>
       </div>
     </div>
-    </Router>
+  </Router>
   );
 }
 
