@@ -10,29 +10,24 @@ import NavBar from "./components/navbar/navbar";
 import Home from "./static/js/homePage";
 
 function App() {
-  return (<Router>
-    <div className="App">
+  return (
+    <Router>
+      <div className="App">
 
-      <div>
-        <NavBar />
-      </div>
+        <div className="auth-wrapper">
+          <div className="auth-inner">
+            <Switch>
+              <Route exact path='/' component={Login} />
+              <Route path="/login" component={Login} />
+              <Route path="/register" component={Register} />
+              <Route path="/logout" component={Logout} />
 
-      <div className="auth-wrapper">
-        <div className="auth-inner">
-          <Switch>
-            <Route exact path='/' component={Login} />
-            <Route path="/login" component={Login} />
-            <Route path="/register" component={Register} />
-            <Route path="/logout" component={Logout} />
-
-
-            <Route path="/home" component={Home} />
-
-          </Switch>
+              <Route path="/home" component={Home} />
+            </Switch>
+          </div>
         </div>
       </div>
-    </div>
-  </Router>
+    </Router>
   );
 }
 
