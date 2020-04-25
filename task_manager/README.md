@@ -1,3 +1,32 @@
+CO2104 Coursework 3 Instructions:
+
+## Prerequisites
+You just need to have Visual Studio Code and npm (https://www.npmjs.com/) installed
+
+
+## Instructions 
+ 
+1. Open the "CO2104_CW3" folder in Visual Studio Code
+
+2. Open a new terminal in Visual Studio Code
+
+3. Change to 'task_manager' directory 
+### `cd task_manager`
+
+4. Install node_modules
+### `npm install`
+
+5. Run task_manager app
+### `npm start`
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
