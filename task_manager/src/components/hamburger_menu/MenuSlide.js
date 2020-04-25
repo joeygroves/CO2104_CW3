@@ -23,7 +23,6 @@ class MenuSlide extends Component {
                     <Link className="nav-link" to={"/university"}> <h2><a>University</a></h2></Link>
                     <Link className="nav-link" to={"/birthdays"}> <h2><a>Birthdays</a></h2></Link>
                     <Link className="nav-link" to={"/lists"}> <h2><a>Lists</a></h2></Link>
-                    <h3> FUCK THIS SHIT </h3>
                 </div>
             </div>
         );
