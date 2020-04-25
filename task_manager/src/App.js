@@ -8,6 +8,11 @@ import Register from "./static/js/register_form";
 import Logout from "./static/js/logout";
 import NavBar from "./components/navbar/navbar";
 import Home from "./static/js/homePage";
+import MonthlyLog from './static/js/monthlyLog';
+import FutureLog from './static/js/futureLog';
+import University from './static/js/university';
+import Birthdays from './static/js/birthdays';
+import Lists from './static/js/lists'
 
 function App() {
   return (
@@ -23,6 +28,12 @@ function App() {
               <Route path="/logout" component={Logout} />
 
               <Route path="/home" component={Home} />
+              <Route path="/monthlylog" component={MonthlyLog} />
+              <Route path="/futurelog" component={FutureLog} />
+              <Route path="/university" component={University} />
+              <Route path="/birthdays" component={Birthdays} />
+              <Route path="/lists" component={Lists} />
+
             </Switch>
           </div>
         </div>

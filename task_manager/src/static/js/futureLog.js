@@ -3,7 +3,7 @@ import "../css/homePage.css";
 import NavBar from "../../components/navbar/navbar";
 
 
-export default class Home extends Component {
+export default class FutureLog extends Component {
     render() {
         return (
             <div>
@@ -11,6 +11,8 @@ export default class Home extends Component {
                     <NavBar />
                 </div>
 
+                <h2> Future Log </h2>
+                
                 <h3> Hello World! </h3>
 
             </div>

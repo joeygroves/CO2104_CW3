@@ -1,7 +1,7 @@
 #flyoutMenu {
     width: 100vw;
     height: 100vh;
-    background-color: #FFE600;
+    background-color: #ECECEC ;
     position: fixed;
     top: 0;
     left: 0;
@@ -9,6 +9,7 @@
                 cubic-bezier(0, .52, 0, 1);
     overflow: scroll;
     z-index: 1000;
+    opacity: 80%;
   }
    
   #flyoutMenu.hide {
@@ -28,4 +29,9 @@
    
   #flyoutMenu h2 a:hover {
     text-decoration: underline;
+  }
+
+  #menuText {
+    margin-top: 80px;
+    margin-left: 5px;
   }

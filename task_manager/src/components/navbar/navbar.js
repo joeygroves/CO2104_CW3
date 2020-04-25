@@ -44,8 +44,9 @@ export default class NavBar extends Component {
             <nav className="navbar navbar-expand-lg navbar-light fixed-top">
 
                 <div className="container">
-                    <MenuButton handleMouseDown={this.handleMouseDown} />
-                    <MenuSlide handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible} />
+
+                <MenuButton handleMouseDown={this.handleMouseDown} />
+                <MenuSlide handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible} />
 
 
                     <Link className="navbar-brand" to={"/home"}>Task Management System</Link>

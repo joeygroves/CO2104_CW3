@@ -1,22 +1,24 @@
 #roundButton {
-    background-color: #96D9FF;
-    margin-bottom: 20px;
-    width: 50px;
-    height: 50px;
+    background-color: rgb(29, 29, 29);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
-    border: 10px solid #0065A6;
+    border: 5px solid rgb(73, 73, 73);
     outline: none;
     transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
   }
    
   #roundButton:hover {
-    background-color: #96D9FF;
+    background-color: rgb(29, 29, 29);
     cursor: pointer;
-    border-color: #003557;
+    border-color: rgb(73, 73, 73);
     transform: scale(1.2, 1.2);
   }
    
   #roundButton:active {
-    border-color: #003557;
+    border-color: rgb(73, 73, 73);
     background-color: #FFF;
   }
