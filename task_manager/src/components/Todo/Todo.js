@@ -1,6 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import {connect} from 'react-redux'
+import RemoveTodo from '../../containers/RemoveTodo'
+
 const Todo = ({ onClick, completed, text }) => (
   <li
     onClick={onClick}
@@ -9,7 +12,9 @@ const Todo = ({ onClick, completed, text }) => (
     }}
   >
     {text}
+
   </li>
+  
 )
 
 Todo.propTypes = {

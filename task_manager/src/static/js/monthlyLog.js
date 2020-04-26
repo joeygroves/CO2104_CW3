@@ -6,6 +6,8 @@ import Footer from '../../components/Todo/Footer';
 import AddTodo from '../../containers/AddTodo';
 import VisibleTodoList from '../../containers/VisibleTodoList';
 
+import Moment from 'react-moment';
+
 
 export default class MonthlyLog extends Component {
     render() {
@@ -16,6 +18,7 @@ export default class MonthlyLog extends Component {
                 </div>
 
                 <h2> Monthly Log </h2>
+                <Moment format="MMMM YYYY"></Moment>
 
                 <AddTodo />
                 <VisibleTodoList />

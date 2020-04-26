@@ -6,6 +6,8 @@ import Footer from '../../components/Todo/Footer';
 import AddTodo from '../../containers/AddTodo';
 import VisibleTodoList from '../../containers/VisibleTodoList';
 
+import Moment from 'react-moment';
+
 export default class Home extends Component {
     render() {
         return (
@@ -15,18 +17,13 @@ export default class Home extends Component {
                         <NavBar />
                     </div>
 
-                    <h1> Daily Log </h1>
+                    <h1> Daily Log </h1> 
+                    <Moment format="dddd Do MMMM YYYY"></Moment>
+                    <h5></h5>
 
 
-                    <AddTodo />
-                    <VisibleTodoList />
-                    <Footer />
 
-                </div>
 
-                <div className="weeklyLog">
-
-                    <h2> Weekly Log </h2>
                     <AddTodo />
                     <VisibleTodoList />
                     <Footer />

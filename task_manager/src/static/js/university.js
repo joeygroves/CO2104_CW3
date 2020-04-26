@@ -6,6 +6,8 @@ import Footer from '../../components/Todo/Footer';
 import AddTodo from '../../containers/AddTodo';
 import VisibleTodoList from '../../containers/VisibleTodoList';
 
+import Moment from 'react-moment';
+
 export default class University extends Component {
     render() {
         return (
@@ -15,6 +17,8 @@ export default class University extends Component {
                 </div>
 
                 <h2> University Tasks </h2>
+                <Moment format="dddd Do MMMM YYYY"></Moment>
+                
 
                 <AddTodo />
                 <VisibleTodoList />
