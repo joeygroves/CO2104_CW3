@@ -31,3 +31,24 @@ body, html, .App, #root, .auth-wrapper {
   width: 100%;
   height: 100%;
 }
+
+.Lists {
+  margin-top: 30px;
+}
+
+.Lists, h4 {
+  padding-bottom: 3px;
+  font-style: italic;
+  color: crimson;
+}
+
+.Lists h4:hover {
+  padding-bottom: 3px;
+  font-style: italic;
+  text-decoration: underline;
+  color: rgb(20, 140, 220);
+}
+
+.weeklyLog {
+  margin-top: 80px;
+}

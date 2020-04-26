@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import "../css/homePage.css";
 import NavBar from "../../components/navbar/navbar";
 
+import Footer from '../../components/Todo/Footer';
+import AddTodo from '../../containers/AddTodo';
+import VisibleTodoList from '../../containers/VisibleTodoList';
 
 export default class University extends Component {
     render() {
@@ -11,9 +14,11 @@ export default class University extends Component {
                     <NavBar />
                 </div>
 
-                <h2> University </h2>
+                <h2> University Tasks </h2>
 
-                <h3> Hello World! </h3>
+                <AddTodo />
+                <VisibleTodoList />
+                <Footer />
 
             </div>
 

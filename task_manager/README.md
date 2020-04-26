@@ -13,10 +13,10 @@ You just need to have Visual Studio Code and npm (https://www.npmjs.com/) instal
 3. Change to 'task_manager' directory 
 ### `cd task_manager`
 
-4. Install node_modules
+4. Install node_modules (it will take a while)
 ### `npm install`
 
-5. Run task_manager app
+5. To run the task_manager app
 ### `npm start`
 
 

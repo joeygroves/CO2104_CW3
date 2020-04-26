@@ -6,22 +6,36 @@ import Footer from '../../components/Todo/Footer';
 import AddTodo from '../../containers/AddTodo';
 import VisibleTodoList from '../../containers/VisibleTodoList';
 
-
 export default class Home extends Component {
     render() {
         return (
             <div>
-                <div>
-                    <NavBar />
+                <div className="dailyLog">
+                    <div>
+                        <NavBar />
+                    </div>
+
+                    <h1> Daily Log </h1>
+
+
+                    <AddTodo />
+                    <VisibleTodoList />
+                    <Footer />
+
                 </div>
 
-                <h3> Hello World! </h3>
+                <div className="weeklyLog">
 
-                <AddTodo />
-                <VisibleTodoList />
-                <Footer />
+                    <h2> Weekly Log </h2>
+                    <AddTodo />
+                    <VisibleTodoList />
+                    <Footer />
+
+                </div>
 
             </div>
+
+
 
         );
     }
