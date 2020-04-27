@@ -21,7 +21,7 @@ You just need to have Visual Studio Code and npm (https://www.npmjs.com/) instal
 
 
 
-
+Author: Joey Groves
 
 
 

@@ -9,7 +9,7 @@
                 cubic-bezier(0, .52, 0, 1);
     overflow: scroll;
     z-index: 1000;
-    opacity: 80%;
+    opacity: 0.8;
   }
    
   #flyoutMenu.hide {
