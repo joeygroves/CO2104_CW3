@@ -2,8 +2,12 @@ CO2104 Coursework 3 Instructions:
 
 To see a live demo of the code, go to this link (hosted by Google's Firebase): https://co2104-cw3-task-manager.web.app/
 
+
 Username: "admin"
+
 Password: "password"
+
+
 
 ## Prerequisites
 You just need to have Visual Studio Code and npm (https://www.npmjs.com/) installed
