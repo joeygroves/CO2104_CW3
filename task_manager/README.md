@@ -8,6 +8,9 @@ Username: "admin"
 Password: "password"
 
 
+# NOTE: Sometimes the hamburger menu doesn't work in Chrome, because Chrome has a bug where it changes the opacity value to 1%, 
+# you can see it if you look hard enough. So I suggest using other web browsers such as Safari, Firefox, Edge, Opera, etc. 
+
 
 ## Prerequisites
 You just need to have Visual Studio Code and npm (https://www.npmjs.com/) installed
