@@ -1,6 +1,6 @@
 # CO2104_CW3
 
-###### CO2104 HCI CW3 High-Fidelity Prototype for a Web-based Task Manager based in React.js. Originally written in March 2020.
+###### CO2104 HCI CW3 High-Fidelity React.js Prototype for a Web-based Task Manager. Originally written in March 2020.
 -----------
 
 A High-Fidelity React.js prototype of a task manager application which aims to aid users in completing tasks from their everyday lives using a "T-Shaped" design approach.
